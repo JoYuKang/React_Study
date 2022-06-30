@@ -4,7 +4,7 @@
 }
 
 html[theme="dark-mode"] {
-  /* ! */
+  /* ! 색이 없는 것 invert로 반전 색이 있으면 hue-rotate로 반전 */
   filter: invert(100%) hue-rotate(180deg);
 }
 
